@@ -1,6 +1,6 @@
 <script lang="ts">
-import Vue from 'vue';
-export default Vue.extend({
+import { defineComponent } from '@vue/composition-api';
+export default defineComponent({
   mpType: 'app',
   onLaunch() {
     console.log('App Launch');
